@@ -1,1 +1,2 @@
-lol
+# mkdir basics
+# mkdir permisions
