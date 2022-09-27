@@ -1,1 +1,2 @@
-vi 0-iam_betty (answer) [su -l betty]
+vi 0-iam_betty
+  [su betty] (answer)
