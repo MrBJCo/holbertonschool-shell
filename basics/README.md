@@ -1,18 +1,19 @@
-## vim 0-current_working_directory
-## vim 1-listit
-## vim 2-bring_me_home
-## vim 3-listfiles
-## vim 4-listmorefiles
-## vim 5-lsitfilesdigitonly
-## vim 6-firstdirectory
-## vim 7-movethatfile
-## vim 8-firstdelete
-## vim 9-firstdirdeletion
-## vim 10-back
-## vim 11-lists
-## vim 12-file_type
-## vim 13-symbolic_link
-## vim 14-copy_html
-## vim 15-lets_move
-## vim 16-clean_emacs
-## vim 17-tree
+## Where am I?...
+### (0-current_working_directory) Write a script that prints the absolute path name of the current working directory
+####  #!/bin/bash
+pwd
+## What’s in there?
+### (1-listit) Display the contents list of your current directory.
+####  #!/bin/bash
+ls
+## There is no place like home 
+### (2-bring_me_home) Write a script that changes the working directory to the user’s home directory
+####  #!/bin/bash
+cd
+## The long format 
+### (3-listfiles) Display current directory contents in a long format
+#### #!/bin/bash
+ls -l
+## Hidden files 
+### (4-listmorefiles) Display current directory contents, including hidden files (starting with .). Use the long format.
+####
