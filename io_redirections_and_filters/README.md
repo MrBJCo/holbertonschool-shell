@@ -624,30 +624,24 @@ Repo:
     Directory: io_redirections_and_filters
     File: 20-hiago
 
-5/5 pts
-21. esreveR
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
-
+## esreveR
 Write a script that reverse its input.
 
+```
 julien@ubuntu:/tmp/0x02$ echo "Reverse" | ./21-reverse 
 esreveR
 julien@ubuntu:/tmp/0x02$ 
+```
 
 Repo:
+- GitHub repository: **holbertonschool-shell**
+- Directory: **io_redirections_and_filters**
+- File: **21-reverse**
 
-    GitHub repository: holbertonschool-shell
-    Directory: io_redirections_and_filters
-    File: 21-reverse
-
-5/5 pts
-22. DJ Cut Killer
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
-
+## DJ Cut Killer
 Write a script that displays all users and their home directories, sorted by users.
 
+```
     Based on the the /etc/passwd file
 
 julien@ubuntu:/tmp/0x02$ cat /etc/passwd
@@ -738,26 +732,24 @@ uuidd:/run/uuidd
 whoopsie:/nonexistent
 www-data:/var/www
 julien@ubuntu:/tmp/0x02$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-shell
-    Directory: io_redirections_and_filters
-    File: 22-users_and_homes
+- GitHub repository: **holbertonschool-shell**
+- Directory: **io_redirections_and_filters**
+- File: **22-users_and_homes**
 
-5/5 pts
-23. Empty casks make the most noise
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
-
+## Empty casks make the most noise
 Write a command that finds all empty files and directories in the current directory and all sub-directories.
 
-    Only the names of the files and directories should be displayed (not the entire path)
-    Hidden files should be listed
-    One file name per line
-    The listing should end with a new line
-    You are not allowed to use basename, grep, egrep, fgrep or rgrep
+- Only the names of the files and directories should be displayed (not the entire path)
+- Hidden files should be listed
+- One file name per line
+- The listing should end with a new line
+- You are not allowed to use basename, **grep, egrep, fgrep or rgrep**
 
+```
 ubuntu@ip-172-31-63-244:~/0x02-shell_redirections$ ls -laR
 .:
 total 64
@@ -831,20 +823,18 @@ rudy_rigot.gif
 .horrible_selfie.gif
 ........gif
 ubuntu@ip-172-31-63-244:~/0x02-shell_redirections$
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-shell
-    Directory: io_redirections_and_filters
-    File: 23-empty_casks
+- GitHub repository: **holbertonschool-shell**
+- Directory: **io_redirections_and_filters**
+- File: **23-empty_casks**
 
-5/5 pts
-24. A gif is worth ten thousand words
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
+## A gif is worth ten thousand words
+Write a script that lists all the files with a **.gif** extension in the current directory and all its sub-directories.
 
-Write a script that lists all the files with a .gif extension in the current directory and all its sub-directories.
-
+```
     Hidden files should be listed
     Only regular files (not directories) should be listed
     The names of the files should be displayed without their extensions
@@ -895,25 +885,23 @@ Write a script that lists all the files with a .gif extension in the current dir
     Electra_napping
     main
     julien@production-503e7013:~/shell/fun_with_the_shell$
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-shell
-    Directory: io_redirections_and_filters
-    File: 24-gifs
+- GitHub repository: **holbertonschool-shell**
+- Directory: **io_redirections_and_filters**
+- File: **24-gifs**
 
-5/5 pts
-25. Acrostic
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
-
-An acrostic is a poem (or other form of writing) in which the first letter (or syllable, or word) of each line (or paragraph, or other recurring feature in the text) spells out a word, message or the alphabet. The word comes from the French acrostiche from post-classical Latin acrostichis). As a form of constrained writing, an acrostic can be used as a mnemonic device to aid memory retrieval. Read more.
+## Acrostic
+An acrostic is a poem (or other form of writing) in which the first letter (or syllable, or word) of each line (or paragraph, or other recurring feature in the text) spells out a word, message or the alphabet. The word comes from the French acrostiche from post-classical Latin acrostichis). As a form of constrained writing, an acrostic can be used as a mnemonic device to aid memory retrieval. <a href="https://en.wikipedia.org/wiki/Acrostic">Read more</a>.
 
 Create a script that decodes acrostics that use the first letter of each line.
 
-    The ‘decoded’ message has to end with a new line
-    You are not allowed to use grep, egrep, fgrep or rgrep
+- The ‘decoded’ message has to end with a new line
+- You are not allowed to use **grep, egrep, fgrep or rgrep**
 
+```
 julien@ubuntu:/tmp/0x02$ cat An\ Acrostic 
 Elizabeth it is in vain you say
 Love not"—thou sayest it in so sweet a way:
@@ -927,15 +915,15 @@ His follie—pride—and passion—for he died.
 julien@ubuntu:/tmp/0x02$ ./25-acrostic < An\ Acrostic 
 ELIZABETH
 julien@ubuntu:/tmp/0x02$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-shell
-    Directory: io_redirections_and_filters
-    File: 25-acrostic
+- GitHub repository:**holbertonschool-shell**
+- Directory: **io_redirections_and_filters**
+- File: **25-acrostic**
 
-3/3 pts
-26. The biggest fan
+## The biggest fan
 mandatory
 Score: 100.00% (Checks completed: 100.00%)
 
