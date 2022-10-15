@@ -385,7 +385,7 @@ drwxrwxr-x 2 julien julien 4096 Jan 20 03:23 .
 drwxrwxr-x 4 julien julien 4096 Jan 20 03:42 ..
 -rw-rw-r-- 1 julien julien 0 Jan 20 03:23 cat.gif
 -rw-rw-r-- 1 julien julien 0 Jan 20 03:22 index.html
--rw-rw-r-- 1 julien julien 0 Jan 20 03:23 main.gif
+-rw-rw-r-- 1 julien julien 0 Jan 20 03:23 main.gifhttps://en.wikipedia.org/wiki/Acrostic
 -rw-rw-r-- 1 julien julien 0 Jan 20 03:23 rudy_rigot.gif
 
 ./test_dir/rep.gif:
@@ -929,11 +929,12 @@ Score: 100.00% (Checks completed: 100.00%)
 
 Write a script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
 
-    Order by number of requests, most active host or IP at the top
-    You are not allowed to use grep, egrep, fgrep or rgrep
+- Order by number of requests, most active host or IP at the top
+- You are not allowed to use **grep, egrep, fgrep or rgrep**
 
 Format:
 
+```
 host    When possible, the hostname making the request. Uses the IP address if the hostname was unavailable.
 logname Unused, always -
 time    In seconds, since 1970
@@ -980,9 +981,10 @@ gw1.att.com
 arc.dental.upenn.edu
 131.110.62.74
 julien@ubuntu:/tmp/0x02$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-shell
-    Directory: io_redirections_and_filters
-    File: 26-the_biggest_fan
+- GitHub repository: **holbertonschool-shell**
+- Directory: **io_redirections_and_filters**
+- File: **26-the_biggest_fan**
