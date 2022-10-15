@@ -531,6 +531,7 @@ Repo:
 ## What's next?
 Display lines containing the pattern “**root**” and 3 lines after them in the file **/etc/passwd**.
 
+```
 $ ./16-whatsnext
 root:*:0:0:System Administrator:/var/root:/bin/sh
 daemon:*:1:1:System Services:/var/root:/usr/bin/false
@@ -543,20 +544,17 @@ _usbmuxd:*:213:213:iPhone OS Device Helper:/var/db/lockdown:/usr/bin/false
 _dovecot:*:214:6:Dovecot Administrator:/var/empty:/usr/bin/false
 _dpaudio:*:215:215:DP Audio:/var/empty:/usr/bin/false
 $
+```
 
 Repo:
+- GitHub repository: **holbertonschool-shell**
+- Directory: **io_redirections_and_filters**
+- File: **16-whatsnext**
 
-    GitHub repository: holbertonschool-shell
-    Directory: io_redirections_and_filters
-    File: 16-whatsnext
+## I hate bins
+Display all the lines in the file **/etc/passwd** that do not contain the pattern “**bin**”.
 
-5/5 pts
-17. I hate bins
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
-
-Display all the lines in the file /etc/passwd that do not contain the pattern “bin”.
-
+```
 $ ./17-hidethisword
 ##
 # User Database
@@ -569,22 +567,20 @@ $ ./17-hidethisword
 # Open Directory.
 ##
 $
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-shell
-    Directory: io_redirections_and_filters
-    File: 17-hidethisword
+- GitHub repository: **holbertonschool-shell**
+- Directory: **io_redirections_and_filters**
+- File: **17-hidethisword**
 
-5/5 pts
-18. Letters only please
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
+## Letters only please
+Display all lines of the file **/etc/ssh/sshd_config** starting with a letter.
 
-Display all lines of the file /etc/ssh/sshd_config starting with a letter.
+- include capital letters as well
 
-    include capital letters as well
-
+```
 $ ./18-letteronly
 SyslogFacility AUTHPRIV
 AuthorizedKeysFile  .ssh/authorized_keys
@@ -592,44 +588,39 @@ UsePrivilegeSeparation sandbox # Default for new installations.
 AcceptEnv LANG LC_*
 Subsystem   sftp    /usr/libexec/sftp-server
 $
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-shell
-    Directory: io_redirections_and_filters
-    File: 18-letteronly
+- GitHub repository: **holbertonschool-shell**
+- Directory: **io_redirections_and_filters**
+- File: **18-letteronly**
 
-5/5 pts
-19. A to Z
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
+## A to Z
+Replace all characters **A** and **c** from input to **Z** and **e** respectively.
 
-Replace all characters A and c from input to Z and e respectively.
-
+```
 julien@ubuntu:/tmp/0x02$ echo 'Replace all characters `A` and `c` from input to `Z` and `e`.' | ./19-AZ 
 Replaee all eharaeters `Z` and `e` from input to `Z` and `e`.
 julien@ubuntu:/tmp/0x02$ 
+```
 
 Repo:
+- GitHub repository: **holbertonschool-shell**
+- Directory: **io_redirections_and_filters**
+- File: **19-AZ**
 
-    GitHub repository: holbertonschool-shell
-    Directory: io_redirections_and_filters
-    File: 19-AZ
+## Without C, you would live in hiago
+Create a script that removes all letters C from input.
 
-5/5 pts
-20. Without C, you would live in hiago
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
-
-Create a script that removes all letters c and C from input.
-
+```
 julien@ubuntu:/tmp/0x02$ echo Chicago | ./20-hiago 
 hiago
 julien@ubuntu:/tmp/0x02$ 
+```
 
 Repo:
-
-    GitHub repository: holbertonschool-shell
+- psitory: holbertonschool-shell
     Directory: io_redirections_and_filters
     File: 20-hiago
 
