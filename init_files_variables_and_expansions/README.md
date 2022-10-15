@@ -42,28 +42,27 @@ Repo:
 mandatory
 Score: 100.00% (Checks completed: 100.00%)
 
-Add /action to the PATH. /action should be the last directory the shell looks into when looking for a program.
+Add /action to the **PATH**. **/action** should be the last directory the shell looks into when looking for a program.
 
+```
 julien@ubuntu:/tmp/0x03$ echo $PATH
 /home/julien/bin:/home/julien/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 julien@ubuntu:/tmp/0x03$ source ./2-path 
 julien@ubuntu:/tmp/0x03$ echo $PATH
 /home/julien/bin:/home/julien/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/action
 julien@ubuntu:/tmp/0x03$ 
-
+```
+    
 Repo:
 
-    GitHub repository: holbertonschool-shell
-    Directory: init_files_variables_and_expansions
-    File: 2-path
+- GitHub repository: **holbertonschool-shell**
+- Directory: **init_files_variables_and_expansions**
+- File: **2-path**
 
-5/5 pts
-3. If the path be beautiful, let us not ask where it leads
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
-
-Create a script that counts the number of directories in the PATH.
-
+## If the path be beautiful, let us not ask where it leads
+Create a script that counts the number of directories in the **PATH**.
+    
+```
 julien@ubuntu:/tmp/0x03$ echo $PATH
 /home/julien/bin:/home/julien/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 julien@ubuntu:/tmp/0x03$ . ./3-paths 
@@ -72,20 +71,19 @@ julien@ubuntu:/tmp/0x03$ PATH=/home/julien/bin:/home/julien/.local/bin:/usr/loca
 julien@ubuntu:/tmp/0x03$ . ./3-paths 
 12
 julien@ubuntu:/tmp/0x03$ 
-
+```
+    
 Repo:
 
-    GitHub repository: holbertonschool-shell
-    Directory: init_files_variables_and_expansions
-    File: 3-paths
+- GitHub repository: **holbertonschool-shell**
+- Directory: **init_files_variables_and_expansions**
+- File: **3-paths**
 
-5/5 pts
-4. Global variables
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
+## Global variables
 
 Create a script that lists environment variables.
 
+```
 julien@ubuntu:/tmp/0x03$ source ./4-global_variables
 CC=gcc
 CDPATH=.:~:/usr/local:/usr:/
@@ -124,20 +122,19 @@ LOCAL_MACHINE=octarine
 LOGNAME=franky
 [...]
 julien@ubuntu:/tmp/0x03$ 
-
+```
+    
 Repo:
 
-    GitHub repository: holbertonschool-shell
-    Directory: init_files_variables_and_expansions
-    File: 4-global_variables
+- GitHub repository: **holbertonschool-shell**
+- Directory: **init_files_variables_and_expansions**
+- File: **4-global_variables**
 
-5/5 pts
-5. Local variables
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
+## Local variables
 
 Create a script that lists all local variables and environment variables, and functions.
 
+```
 julien@ubuntu:/tmp/0x03$ . ./5-local_variables
 BASH=/bin/bash
 BASHOPTS=checkwinsize:cmdhist:complete_fullquote:expand_aliases:extglob:extquote:force_fignore:histappend:interactive_comments:progcomp:promptvars:sourcepath
@@ -160,83 +157,72 @@ DEFAULTS_PATH=/usr/share/gconf/ubuntu.default.path
 DESKTOP_SESSION=ubuntu
 [...]
 julien@ubuntu:/tmp/0x03$ 
+```
 
 Repo:
 
-    GitHub repository: holbertonschool-shell
-    Directory: init_files_variables_and_expansions
-    File: 5-local_variables
+- GitHub repository: **holbertonschool-shell**
+- Directory: **init_files_variables_and_expansions**
+- File: **5-local_variables**
 
-5/5 pts
-6. Local variable
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
-
+## Local variable
 Create a script that creates a new local variable.
 
-    Name: BEST
-    Value: School
+- Name: BEST
+- Value: School
 
 Repo:
 
-    GitHub repository: holbertonschool-shell
-    Directory: init_files_variables_and_expansions
-    File: 6-create_local_variable
+- GitHub repository: **holbertonschool-shell**
+- Directory: **init_files_variables_and_expansions**
+- File: **6-create_local_variable**
 
-5/5 pts
-7. Global variable
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
+## Global variable
 
 Create a script that creates a new global variable.
 
-    Name: BEST
-    Value: School
+- Name: BEST
+- Value: School
 
 Repo:
 
-    GitHub repository: holbertonschool-shell
-    Directory: init_files_variables_and_expansions
-    File: 7-create_global_variable
+- GitHub repository: **holbertonschool-shell**
+- Directory: **init_files_variables_and_expansions**
+- File: **7-create_global_variable**
 
-5/5 pts
-8. Every addition to true knowledge is an addition to human power
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
+## Every addition to true knowledge is an addition to human power
+Write a script that prints the result of the addition of 128 with the value stored in the environment variable **TRUEKNOWLEDGE**, followed by a new line.
 
-Write a script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
-
+```
 julien@production-503e7013:~$ export TRUEKNOWLEDGE=1209
 julien@production-503e7013:~$ ./8-true_knowledge | cat -e
 1337$
 julien@production-503e7013:~$
-
+```
 Repo:
 
-    GitHub repository: holbertonschool-shell
-    Directory: init_files_variables_and_expansions
-    File: 8-true_knowledge
+- GitHub repository: **holbertonschool-shell**
+- Directory: **init_files_variables_and_expansions**
+- File: **8-true_knowledge**
 
-5/5 pts
-9. Divide and rule
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
+## Divide and rule
+Write a script that prints the result of **POWER** divided by **DIVIDE**, followed by a new line.
 
-Write a script that prints the result of POWER divided by DIVIDE, followed by a new line.
+- POWER and DIVIDE are environment variables
 
-    POWER and DIVIDE are environment variables
-
+```
 julien@production-503e7013:~$ export POWER=42784
 julien@production-503e7013:~$ export DIVIDE=32
 julien@production-503e7013:~$ ./9-divide_and_rule | cat -e
 1337$
 julien@production-503e7013:~$
-
+```
+    
 Repo:
 
-    GitHub repository: holbertonschool-shell
-    Directory: init_files_variables_and_expansions
-    File: 9-divide_and_rule
+- GitHub repository: **holbertonschool-shell**
+- Directory: **init_files_variables_and_expansions**
+- File: **9-divide_and_rule**
 
 ## Love is anterior to life, posterior to death, initial of creation, and the exponent of breath
 Write a script that displays the result of **BREATH** to the power **LOVE**
@@ -254,9 +240,9 @@ julien@production-503e7013:~/$
     
 Repo:
 
-    GitHub repository: holbertonschool-shell
-    Directory: init_files_variables_and_expansions
-- File: 10-love_exponent_breath
+- GitHub repository: **holbertonschool-shell**
+- Directory: **init_files_variables_and_expansions**
+- File: **10-love_exponent_breath**
 
 ## There are 10 types of people in the world Those who understand binary, and those who don't
 Write a script that converts a number from base 2 to base 10.
