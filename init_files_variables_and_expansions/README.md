@@ -2,47 +2,43 @@
 ## <o>
 Create a script that creates an alias.
 
-    Name: ls
-    Value: rm *
+- Name: **ls**
+- Value: **rm**
 
+```
 julien@ubuntu:/tmp/0x03$ ls
 0-alias  file1  file2
 julien@ubuntu:/tmp/0x03$ source ./0-alias 
 julien@ubuntu:/tmp/0x03$ ls
 julien@ubuntu:/tmp/0x03$ \ls
 julien@ubuntu:/tmp/0x03$ 
-
+```
+    
 Repo:
 
-    GitHub repository: holbertonschool-shell
-    Directory: init_files_variables_and_expansions
-    File: 0-alias
+- GitHub repository: **holbertonschool-shell**
+- Directory: **init_files_variables_and_expansions**
+- File: **0-alias**
 
-5/5 pts
-1. Hello you
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
+## Hello you
+Create a script that prints **hello user**, where user is the current Linux user.
 
-Create a script that prints hello user, where user is the current Linux user.
-
+```
 julien@ubuntu:/tmp/0x03$ id
 uid=1000(julien) gid=1000(julien) groups=1000(julien),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),113(lpadmin),128(sambashare)
 julien@ubuntu:/tmp/0x03$ ./1-hello_you 
 hello julien
 julien@ubuntu:/tmp/0x03$ 
-
+```
+    
 Repo:
 
-    GitHub repository: holbertonschool-shell
-    Directory: init_files_variables_and_expansions
-    File: 1-hello_you
+- GitHub repository: **holbertonschool-shell**
+- Directory: **init_files_variables_and_expansions**
+- File: **1-hello_you**
 
-5/5 pts
-2. The path to success is to take massive, determined action
-mandatory
-Score: 100.00% (Checks completed: 100.00%)
-
-Add /action to the **PATH**. **/action** should be the last directory the shell looks into when looking for a program.
+##The path to success is to take massive, determined action
+Add **/action** to the **PATH**. **/action** should be the last directory the shell looks into when looking for a program.
 
 ```
 julien@ubuntu:/tmp/0x03$ echo $PATH
@@ -168,8 +164,8 @@ Repo:
 ## Local variable
 Create a script that creates a new local variable.
 
-- Name: BEST
-- Value: School
+- Name: **BEST**
+- Value: **School**
 
 Repo:
 
@@ -181,8 +177,8 @@ Repo:
 
 Create a script that creates a new global variable.
 
-- Name: BEST
-- Value: School
+- Name: **BEST**
+- Value: **School**
 
 Repo:
 
